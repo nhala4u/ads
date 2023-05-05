@@ -1,0 +1,100 @@
+### HTML - .gitignore template
+# SYSTEMS (Window & MacOS)
+Thumbs.db
+ehthumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+trash
+*.rvmrc
+*.trashes
+$RECYCLE.BIN/
+
+# IDEs
+.idea/
+.tmp/
+.vscode/
+.vscode-test/
+.settings/
+.project
+.classpath
+.c9/
+*.launch
+*.sublime-project
+*.sublime-workspace
+
+# Frameworks
+.next/
+coverage/
+
+# SASS
+.sass-cache/
+*.css.map
+
+# Files
+*.tmp
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+*.xlk
+*.~vsdx
+*.zip
+*.tgz
+*.tar.gz
+*.psd
+*.sketch
+*.cab
+*.msi
+*.msm
+*.msp
+
+# NodeJS
+node_modules/
+jspm_packages/
+bower_components/
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn-integrity
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+*.swp
+*.npm
+
+# Build
+build/
+dist/
+bundle/
+public/
+tmp/
+
+# Environments
+.env
+
+# Other
+bin/
+.git/
+.cache
+pids
+*.pid
+*.seed
+sftp-config.json
+.eslintcache
+.grunt
+
+# Excludes
+!**/**/style.min.css
+!vendors/
+!lib/
+!libraries/
+
+# Project Local
+**/**/commons/*.css
+**/**/components/*.css
+**/**/blocks/*.css
+**/**/css/
+**/**/images/
+**/**/*.html
+**/**/cscript.js
