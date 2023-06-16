@@ -89,6 +89,7 @@ sftp-config.json
 !vendors/
 !lib/
 !libraries/
+!public
 
 # Project Local
 **/**/commons/*.css
